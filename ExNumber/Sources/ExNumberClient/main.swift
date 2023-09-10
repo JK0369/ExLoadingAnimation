@@ -1,0 +1,10 @@
+import ExNumber
+
+let a = 17
+let b = 25
+let (result, code) = #stringify(a + b)
+print("The value \(result) was produced by the code \"\(code)\"")
+
+// MARK: - toDouble
+let numberValue = #toDouble("123")
+let numberValue2 = #toDouble("123.456")
